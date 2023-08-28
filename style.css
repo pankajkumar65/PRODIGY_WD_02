@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(77, 75, 75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    color: rgb(211, 215, 218);
+}
+
+.digit{
+    font-size: 100px;
+    font-weight: bold;
+}
+.txt{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.btn-container{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.btn{
+    font-size: 20px;
+    padding: 7px 25px;
+    margin: 0px 10px;
+    color: white;
+    border: 0px;
+    cursor: pointer;
+}
+
+#start{
+    background-color: rgb(74, 228, 74);
+}
+#stop{
+ background-color: rgb(74, 74, 203);
+}
+#Reset{
+ background-color: rgb(195, 61, 61);
+}
+
