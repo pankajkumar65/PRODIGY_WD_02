@@ -3,18 +3,20 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height:100vh;
+    overflow-y: hidden;
 }
 .container{
     color: rgb(211, 215, 218);
+    margin: 20vw;
 }
 
 .digit{
-    font-size: 100px;
+    font-size: 7vw;
     font-weight: bold;
 }
 .txt{
-    font-size: 40px;
+    font-size: 4vw;
     font-weight: bold;
 }
 
@@ -24,11 +26,11 @@ body{
 }
 
 .btn{
-    font-size: 20px;
-    padding: 7px 25px;
-    margin: 0px 10px;
+    font-size: 1.5vw;
+    padding: 0.7vw 2.5vw;
+    margin: 0vw 1.5vw;
     color: white;
-    border: 0px;
+    border-radius: 5px;
     cursor: pointer;
 }
 
@@ -42,3 +44,14 @@ body{
  background-color: rgb(195, 61, 61);
 }
 
+@media only screen and (max-width: 394px){
+    .digit{
+        font-size: 9vw;
+    }
+    .time{
+        width: 64vw;
+    }
+    .btn{
+        font-size: 3vw;
+    }
+}
